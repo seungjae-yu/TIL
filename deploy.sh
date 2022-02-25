@@ -6,7 +6,7 @@ set -e
 git init
 git add -A
 git commit -m 'deploy'
-git push origin master
+git push
 
 # build
 npm run docs:build
