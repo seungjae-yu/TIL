@@ -1,12 +1,11 @@
 #!/usr/bin/env sh
 
 # abort on errors
-#set -e
+set -e
 
-git pull
+git init
 git add -A
-git commit -m "$1 $2 $3 --all.sh master"
-git push origin master
+git commit -m 'deploy'
 
 # build
 npm run docs:build
