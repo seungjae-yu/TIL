@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ParentLayout from "@parent-theme/layouts/Layout.vue";
+import Layout from "@vuepress/theme-default/layouts/Layout.vue";
 import Comment from "../components/Comment";
 export default {
     components: {
