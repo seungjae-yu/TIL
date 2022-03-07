@@ -1,5 +1,5 @@
 module.exports = {
-    title: "title",
+    title: "SeungJae Yu",
     description: "desc",
     themeConfig: {
         nav: [{ text: "Github", link: "https://github.com/seungjae-yu" }],

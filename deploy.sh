@@ -5,7 +5,7 @@ set -e
 
 git init
 git add -A
-git commit -m '$1'
+git commit -m '%1'
 git push
 
 # build
@@ -18,7 +18,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m '$1 with vuepress'
+git commit -m '%1 with vuepress'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
