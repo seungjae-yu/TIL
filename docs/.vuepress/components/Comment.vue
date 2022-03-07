@@ -12,10 +12,9 @@ export default {
         utterances.src = "https://utteranc.es/client.js";
 
         utterances.setAttribute("issue-term", "pathname"); // pathname|url|title|og:title 중 택 1
-        utterances.setAttribute("theme", "github-light"); // theme 설정
-        utterances.setAttribute("repo", `seungjae-yu/TIL-comments`); // 사용할 repository
+        utterances.setAttribute("theme", "github-light"); // theme 설정 (github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark, boxy-light) 중 하나 선택
+        utterances.setAttribute("repo", `seungjae-yu/TIL-comments`); // 주의!! 사용할 repository
 
-        // script tag 삽입
         this.$refs.comment.appendChild(utterances);
     },
 };
