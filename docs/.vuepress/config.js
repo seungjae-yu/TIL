@@ -1,5 +1,5 @@
 module.exports = {
-    title: "SeungJae Yu",
+    title: "Today Seungjae Learned",
     description: "desc",
     themeConfig: {
         nav: [{ text: "Github", link: "https://github.com/seungjae-yu" }],
@@ -56,7 +56,7 @@ function makeSidebarObject(folder, mdfileList) {
             ? folder.substr(dotIdx + 1)
             : folder;
     } else {
-        title = "HOME";
+        title = "Profile";
     }
     return {
         title: title,
