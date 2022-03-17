@@ -60,8 +60,8 @@
     -   vscode
     ### 개발언어/프레임워크/라이브러리
     -   JavaScript/TypeScript
-    -   React, Theia
-    -   React-redux, Inversify.js, Node.js, Express, Jest, Material UI, Jenkins
+    -   React, Theia, Node.js, Express
+    -   React-redux, Inversify.js, immer.js, Jest, Material UI, Jenkins
     ### 상세업무
     -   이전 AnyLink7 버전의 Studio의 문제 분석 및 이를 해결하기 위한 UI/UX 설계
     -   Theia Framework를 이용한 SPA Web IDE 개발
