@@ -4,12 +4,24 @@ module.exports = {
     themeConfig: {
         nav: [{ text: "Github", link: "https://github.com/seungjae-yu" }],
         sidebar: getSidebarArr(),
+        lastUpdated: "최근변경일"
     },
     //가장 중요한 부분!
     //<username>.github.io 뒤에 주소가 붙으시면
     //아래와 같이 뒤 붙는 주소를 넣어주셔야합니다.
     //안그러면 css 가 반영이 안되요!! 꼭꼭 넣어주세요
     base: "/TIL/",
+    plugins: ["@vuepress/back-to-top", "@vuepress/last-updated", "vuepress-plugin-code-copy"],
+    head: [
+        [
+            "script",
+            {
+                async: true,
+                src: "https://www.googletagmanager.com/gtag/js?id=G-MVYTG45VJS",
+            },
+        ],
+        ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');"]],
+    ],
 };
 
 function getSidebarArr() {

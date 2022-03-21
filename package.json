@@ -4,9 +4,9 @@
   "description": "오늘 배운걸 적자",
   "main": "index.js",
   "scripts": {
-    "docs:dev" : "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "docs:eject" : "vuepress eject",
+    "docs:eject": "vuepress eject",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/seungjae-yu/TIL#readme",
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "@vuepress/plugin-last-updated": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-code-copy": "^1.0.6"
   }
 }
