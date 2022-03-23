@@ -9,9 +9,9 @@ git commit -m "$1"
 git push
 
 # build
-npm run docs:build
+npm run build
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cd .vuepress/dist
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
