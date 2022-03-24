@@ -5,6 +5,10 @@
 @require './wrapper'
 @require './toc'
 
+only-pc()
+  @media (min-width: 1200px)
+    {block}
+
 html, body
   padding 0
   margin 0
@@ -53,6 +57,17 @@ body
   box-sizing border-box
   border-right 1px solid $borderColor
   overflow-y auto
+
+.hit
+  text-align right
+  position absolute
+  top 80px
+  left 10px
+  right 10px
+
+  +only-pc()
+    left 280px
+    right 280px
 
 {$contentClass}:not(.custom)
   @extend $wrapper
