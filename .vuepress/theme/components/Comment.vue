@@ -24,7 +24,6 @@ export default {
             window.document.getElementById('comment').appendChild(utterances);
         }
     },
-
     mounted() {
         this.init();       
     },
