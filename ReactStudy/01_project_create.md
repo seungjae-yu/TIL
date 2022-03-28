@@ -45,8 +45,8 @@ yarn start
 
 ## 3. 실행결과 확인
 
-![running_result](./1장_실행결과.png)
+![running_result](./01_result.png)
 
 # 4. 폴더구조 참고
 
-![folder_structure](./1장_폴더구조.png)
+![folder_structure](./01_structure.png)
