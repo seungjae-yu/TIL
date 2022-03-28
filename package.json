@@ -26,5 +26,8 @@
     "@vuepress/plugin-last-updated": "^1.9.7",
     "vuepress": "^1.9.7",
     "vuepress-plugin-code-copy": "^1.0.6"
+  },
+  "dependencies": {
+    "tslint-config-prettier": "^1.18.0"
   }
 }
