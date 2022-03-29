@@ -12,8 +12,17 @@
     > 별도의 프로그램 없이 git tree 확인 가능
 
 -   Paste JSON as Code
+
     > 클립보드에있는 JSON 데이터를 TypeScript Interface로 바로 뽑아낼 수 있다.  
     > "could not get clipboard contents" 오류가 발생할수도 있는데, Paste JSON as Code (Refresh) 로 다운받으니 잘 된다.
+
+-   [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+
+    > 다양한 Snippets 제공  
+    > ex: rsc + tab
+
+-   [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    > code prettier
 
 ## <b>유용한 단축키</b>
 
