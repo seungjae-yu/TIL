@@ -46,7 +46,7 @@ getTrProps={(
 
 ## 3. 결과
 
-![react-tableInfo](./react-table.PNG)
+![react-tableInfo](./react-table.png)
 
 입력한 condition을 만족하는 row만 subComponent를 열 수 있는 버튼이 생기고,  
 조건을 만족하지 않는 row에는 버튼이 생기지 않는다.
