@@ -52,3 +52,9 @@ yarn start
 ## 4. 폴더구조 확인
 
 ![folder_structure](./01_structure.png)
+
+---
+
+<b>Github Link : [react-typescript-project-starter](https://github.com/seungjae-yu/react-typescript-project-starter)</b>
+
+---

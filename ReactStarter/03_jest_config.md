@@ -71,3 +71,9 @@ tsconfig.json에 isolatedModules 옵션을 false로 바꿔준다.
 
 Jest가 정상적으로 동작하는지 확인한다.  
 ![](./03_test_result.png)
+
+---
+
+<b>Github Link : [react-typescript-project-starter](https://github.com/seungjae-yu/react-typescript-project-starter)</b>
+
+---

@@ -75,3 +75,9 @@ yarn add -D @types/styled-components
 -   styles : styledComponent, css 등 ui 관련 코드
 -   test : jest를 통한 test 코드
 -   utils : utility 코드
+
+---
+
+<b>Github Link : [react-typescript-project-starter](https://github.com/seungjae-yu/react-typescript-project-starter)</b>
+
+---

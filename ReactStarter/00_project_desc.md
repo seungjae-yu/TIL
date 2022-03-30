@@ -2,7 +2,15 @@
 
 프로젝트 시작할때마다 반복해서 설정하기 번거로우니 미리 세팅해두고 가져다 쓰자.
 
-## React / TypeScript / Redux / Jest
+install packages
+
+-   react
+-   typescript
+-   Redux / react-redux
+-   Jest / ts-jest
+-   Material UI
+-   Styled Component
+-   immer
 
 ### 1. React
 
@@ -20,4 +28,16 @@
 
 -   Jest 기본 세팅 및 TypeScript 설정
 
-Github Link : [react-typescript-project-starter](https://github.com/seungjae-yu/react-typescript-project-starter)
+### 5. Material UI
+
+-   Material UI 설치 및 typescript @types 설치
+
+### 6. Styled Component
+
+-   Styled Component 설치 및 Material UI 연동
+
+---
+
+<b>Github Link : [react-typescript-project-starter](https://github.com/seungjae-yu/react-typescript-project-starter)</b>
+
+---

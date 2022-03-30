@@ -220,3 +220,11 @@ ReactDOM.render(
     document.getElementById("root")
 );
 ```
+
+redux와 redux reducer snippets 적용까지 끝냈다.
+
+---
+
+<b>Github Link : [react-typescript-project-starter](https://github.com/seungjae-yu/react-typescript-project-starter)</b>
+
+---
