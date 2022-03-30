@@ -94,7 +94,7 @@ hitUrl: https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fs
     -   etc : lodash / immer
 
 -   ### [react-typescript-project-starter](https://github.com/seungjae-yu/react-typescript-project-starter)
-    -   [단계별 설명](https://seungjae-yu.github.io/TIL/ReactStarter)
+    -   [단계별 설명](https://seungjae-yu.github.io/TIL/ReactStarter/00_project_desc.html)
     -   React 프로젝트를 시작할 때 반복되는 중복작업을 미리 제공하는 project starter
     -   React / TypeScript 관련 기본 설정
     -   ducks 패턴을 적용한 Redux reducer를 snippet으로 생성하여 간편하게 사용
