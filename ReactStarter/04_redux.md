@@ -165,11 +165,11 @@ export default ${TM_FILENAME_BASE}Reducer;
     ![](./04_redux_vscode_snippet.png)
 
 -   test.ts 파일을 생성하고 snippet key로 설정한 <b>rrd</b>를 입력하여 redux reducer 자동완성이 잘 되는지 확인한다.  
-    ![](./04_rrd.PNG)
+    ![](./04_rrd.png)
 
 -   파일이름인 test를 갖는 ducks 패턴이 적용된 redux reducer가 바로 생성되었다.
 
-    ![](./04_rrd_result.PNG)
+    ![](./04_rrd_result.png)
 
 ## 4. redux rootReducer 생성
 
