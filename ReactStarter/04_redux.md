@@ -2,7 +2,8 @@
 
 ## 1. sampleReducer 생성
 
-자주 사용하는 ducks패턴을 적용한 redux reducer 형식을 snippets로 등록하기 위한 sampleReducer를 만든다.
+자주 사용하는 ducks패턴을 적용한 redux reducer 형식을  
+snippets로 등록하기 위한 sampleReducer를 만든다.  
 /src/modules/sampleReducer.ts
 
 ```typescript
@@ -160,12 +161,13 @@ export default ${TM_FILENAME_BASE}Reducer;
 
 ## 3. vscode에 snippet 등록
 
--   파일 > 기본설정 > 사용자 코드조각 > typescript 선택
+-   파일 > 기본설정 > 사용자 코드조각 > typescript 선택하고 위의 snippet json을 붙여넣는다.
 
     ![](./04_redux_vscode_snippet.png)
 
--   test.ts 파일을 생성하고 snippet key로 설정한 <b>rrd</b>를 입력하여 redux reducer 자동완성이 잘 되는지 확인한다.  
-    ![](./04_rrd.png)
+-   test.ts 파일을 생성하고  
+    snippet key로 설정한 <b>rrd</b>를 입력하여 redux reducer 자동완성이 잘 되는지 확인한다.  
+     ![](./04_rrd.png)
 
 -   파일이름인 test를 갖는 ducks 패턴이 적용된 redux reducer가 바로 생성되었다.
 

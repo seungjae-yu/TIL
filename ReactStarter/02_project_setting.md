@@ -70,7 +70,7 @@ yarn add -D @types/styled-components
 -   common : 공통으로 재사용하는 component
 -   components : 페이지 구성에 사용되는 각 컴포넌트
 -   config : 개발에 사용하는 설정정보 (ex: DB or network config json)
--   container : component를 묶어 구성한 영역. dispatch 수행하는 함수를 하위 component에 props로 전달
+-   container : component를 묶어 구성. dispatch를 수행 함수 구현 및 하위 component에 전달
 -   modules : redux, redux-saga의 state 정보
 -   styles : styledComponent, css 등 ui 관련 코드
 -   test : jest를 통한 test 코드
