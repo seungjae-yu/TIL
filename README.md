@@ -11,7 +11,7 @@
 
 -   ### JavaScript/TypeScript
 
-    -   ES5 이상의 JavaScript 문법에 능숙하게 개발할 수 있습니다.
+    -   ES6 이상의 JavaScript 문법에 능숙하게 개발할 수 있습니다.
     -   TypeScript를 사용하여 객체지향 프로그래밍을 할 수 있습니다.
     -   Inversify를 이용하여 dependency injection 적용 경험이 있습니다.
     -   데이터의 불변성을 지키기 위해 노력하며 immer.js와 같은 라이브러리를 사용할 수 있습니다.
