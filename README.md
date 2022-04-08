@@ -73,7 +73,6 @@
 
 -   ### [Binance Future App](https://github.com/seungjae-yu/Binance-Future-App)
 
-    -   현재 private repository. 추후 공개예정
     -   비트코인 선물(Future) 정보를 필터링 및 모니터링하기 위한 프로젝트
     -   주요기능 : 스토캐스틱 필터링 / 이동 평균선 필터링 / 설정 조건 만족시 텔레그램 알림받기
     -   Language & Framework : TypeScript / React.js
