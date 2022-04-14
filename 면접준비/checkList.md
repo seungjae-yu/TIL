@@ -19,6 +19,7 @@
 
 ## React
 
+-   React가 re-rendering 하는 조건 3가지
 -   React LifeCycle에 대해 설명
 -   Virtual DOM
 -   Virtual DOM은 트리가 변경되었는지 어떻게 비교
