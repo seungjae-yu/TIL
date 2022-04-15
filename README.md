@@ -82,8 +82,7 @@
 
 -   ### [News Keyword Notification](https://github.com/seungjae-yu/news-keyword-notification)
 
-    -   알림 기능은 현재 개발중
-    -   등록한 키워드가 포함된 네이버 뉴스 조회 및 알림을 받을 수 있는 웹
+    -   등록한 키워드가 포함된 네이버 뉴스 조회 및 알림을 받을 수 있는 웹(알림 기능은 현재 개발중)
     -   주요기능 : 키워드 등록 / 키워드가 포함된 뉴스 조회 / 키워드가 포함된 뉴스 알림받기
     -   Language & Framework : TypeScript / React.js
     -   상태관리 : react-redux / redux-saga
