@@ -82,6 +82,7 @@
 
 -   ### [News Keyword Notification](https://github.com/seungjae-yu/news-keyword-notification)
 
+    -   알림 기능은 현재 개발중
     -   등록한 키워드가 포함된 네이버 뉴스 조회 및 알림을 받을 수 있는 웹
     -   주요기능 : 키워드 등록 / 키워드가 포함된 뉴스 조회 / 키워드가 포함된 뉴스 알림받기
     -   Language & Framework : TypeScript / React.js
@@ -89,6 +90,7 @@
     -   UI : Material-UI / Styled Component
     -   API : Telegram Bot API / Naver News API / Jest
     -   etc : lodash / immer
+    -   Naver 뉴스 API에서 발생하는 cors해결을 위해 간단한 node.js back-end server(heroku)
 
 -   ### [react-typescript-project-starter](https://github.com/seungjae-yu/react-typescript-project-starter)
     -   [단계별 설명](https://seungjae-yu.github.io/TIL/ReactStarter/00_project_desc.html)
