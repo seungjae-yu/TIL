@@ -37,6 +37,8 @@
 -   GET/POST 비교
 -   SPA와 SSR 비교
 -   CORS 대처 및 우회
+-   디바운싱/쓰로틀링
+-   CSRF
 
 ## 참고링크
 
