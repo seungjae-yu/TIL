@@ -4,7 +4,7 @@
 
 -   호이스팅이란?
 -   클로저란? 원리 + 사용이유
--   this
+-   this (call, apply, bind)
 -   자바스크립트 이벤트 루프
 -   마이크로태스크 큐 / 태스크 큐
 -   이벤트 버블링
@@ -14,6 +14,7 @@
 -   require / import
 -   자바스크립트 성능 최적화
 -   var, let, const
+-   디바운싱/쓰로틀링
 
 ## TypeScript
 
@@ -37,9 +38,10 @@
 -   GET/POST 비교
 -   SPA와 SSR 비교
 -   CORS 대처 및 우회
--   디바운싱/쓰로틀링
 -   CSRF
 
 ## 참고링크
 
 -   https://realmojo.tistory.com/300
+-   https://github.com/baeharam/Must-Know-About-Frontend
+-   https://velog.io/@lucas/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A9%B4%EC%A0%91-%EC%A4%80%EB%B9%84-React
