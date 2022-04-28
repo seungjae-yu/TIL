@@ -7,10 +7,8 @@
 -   this (call, apply, bind)
 -   자바스크립트 이벤트 루프
 -   마이크로태스크 큐 / 태스크 큐
--   이벤트 버블링
 -   Iterable, Iterator
 -   Generator
--   HTML이 렌더링중 JavaScript가 실행되면 렌더링 멈추는 이유
 -   require / import
 -   자바스크립트 성능 최적화
 -   var, let, const
@@ -18,9 +16,11 @@
 
 ## TypeScript
 
+-   JavaScript와의 차이점
+
 ## React
 
--   React가 re-rendering 하는 조건 3가지
+-   React가 re-rendering 하는 조건
 -   React LifeCycle에 대해 설명
 -   Virtual DOM
 -   Virtual DOM은 트리가 변경되었는지 어떻게 비교
@@ -39,6 +39,8 @@
 -   SPA와 SSR 비교
 -   CORS 대처 및 우회
 -   CSRF
+-   이벤트 버블링 / 이벤트 캡쳐링
+-   HTML이 렌더링중 JavaScript가 실행되면 렌더링 멈추는 이유
 
 ## 참고링크
 
