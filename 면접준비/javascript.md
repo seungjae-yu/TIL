@@ -1,6 +1,6 @@
 # JavaScript
 
-## <b>var, let, const + 호이스팅</b>
+## var, let, const + 호이스팅
 
 -   [참고자료1]('https://www.howdy-mj.me/javascript/var-let-const/'), [참고자료2]('https://velog.io/@bathingape/JavaScript-var-let-const-%EC%B0%A8%EC%9D%B4%EC%A0%90'), [참고자료3]('https://medium.com/@su_bak/javascript-var-let-const%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90-9fab5c264c9c')
 -   자바스크립트에서 변수선언은 <b>선언 -> 초기화 -> 할당</b> 단계를 통해 수행된다.
@@ -40,12 +40,12 @@
     const name = "yu";
     ```
 
-### <b>호이스팅</b>
+### 호이스팅
 
 -   var 선언문이나, function 선언문 등을 해당 스코프의 맨 앞으로 옮긴것처럼 동작하는 특성
 -   let, const 를 포함하는 모든 선언(var, let, const, function, function\*, class)을 호이스팅 한다.
 
-### <b>정리</b>
+### 정리
 
 -   Scope 관점에서 차이 : var는 함수 스코프이고, let, const는 블록 스코프이다.
 -   변수선언 단계에서의 차이
@@ -53,7 +53,7 @@
     -   let은 선언과 초기화가 분리(is not defined에러)
     -   const는 선언 + 초기화 함께(cannot access before init)
 
-## <b>자바스크립트 이벤트 루프 + 매크로 태스크 큐, 매크로 태스크 큐</b>
+## 이벤트 루프
 
 -   [참고자료1]('https://velog.io/@thms200/Event-Loop-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84'), [참고자료2]('https://meetup.toast.com/posts/89'), [참고자료3]('https://medium.com/sjk5766/javascript-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%95%B5%EC%8B%AC-event-loop-%EC%A0%95%EB%A6%AC-422eb29231a8')
 -   자바스크립트 엔진은 Memory Heap과 Call Stack으로 구성, 구글의 V8 Engine
@@ -85,7 +85,7 @@
 -   call Stack과 callback Queue, Job Queue(Micro task queue)를 감시한다.
 -   call Stack이 비었을 때 Job Queue에서 기다리는 모든 작업 처리후 callback Queue에서 함수를 꺼내 call Stack에 추가
 
-## <b>함수 선언식, 함수 표현식, 화살표 함수</b>
+## 함수 선언식, 함수 표현식, 화살표 함수
 
 -   [참고자료1]('https://velog.io/@bigbrothershin/%EC%98%A4%EB%8A%98-%EA%B3%B5%EB%B6%80%ED%95%A0-%EA%B2%832020.1.30'), [참고자료2]('https://velog.io/@seeh_h/%ED%95%A8%EC%88%98-%EC%84%A0%EC%96%B8%EC%8B%9D-vs-%ED%95%A8%EC%88%98-%ED%91%9C%ED%98%84%EC%8B%9D'), [참고자료3]('https://github.com/imacoolgirlyo/javascript#functions--declarations')
 
