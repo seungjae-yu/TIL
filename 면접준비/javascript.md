@@ -598,7 +598,71 @@
 
 ## 디바운싱, 쓰로틀링
 
--
+-   [침고자료1]('https://flamingotiger.github.io/javascript/throttle-debounce/'), [참고자료2]('https://velog.io/@yujuck/Javascript-%EB%94%94%EB%B0%94%EC%9A%B4%EC%8A%A4%EC%99%80-%EC%93%B0%EB%A1%9C%ED%8B%80%EB%A7%81'), [참고자료3]('https://thewavelet.tistory.com/65?category=752296')
+
+### 디바운싱
+
+-   연속적인 함수 호출시 맨 마지막 or 처음 함수만 호출시키는것
+-   동일한 이벤트 받을경우 지정한 시간동안 실행하지않고 버티다가 지정한 시간이 지나면 발생
+-   검색창 검색어 자동완성에 주로 사용
+
+    ```javascript
+    //동작 원리를 반영한 코드
+    var timer;
+
+    document.querySelector("#input").addEventListener("input", function (e) {
+        if (timer) {
+            clearTimeout(timer);
+        }
+        timer = setTimeout(function () {
+            // 실행 코드 내용
+        }, 200);
+    });
+    ```
+
+    ```javascript
+    //lodash 라이브러리 이용한 코드
+    function Search({ onSearch }) {
+        const [value, setValue] = React.useState("");
+
+        // This is the solution
+        const debouncedSearch = React.useMemo(
+            () =>
+                debounce((val) => {
+                    onSearch(val);
+                }, 750),
+            [onSearch]
+        );
+
+        const handleChange = React.useCallback(
+            (e) => {
+                setValue(e.target.value);
+                debouncedSearch(e.target.value);
+            },
+            [debouncedSearch]
+        );
+
+        return <input type="text" value={value} onChange={handleChange} />;
+    }
+    ```
+
+### 쓰로틀링
+
+-   마지막으로 함수가 호출된 이후 일정 시간동안 다시 호출되지 않게 하는것
+-   이벤트 발생 즉시 실행되고 그 다음 지정한 시간동안 발생되지 못하게 막고, 그 시간이 지나면 다시 이벤트 발생
+-   스크롤 이벤트나 좌표값으로 지도의 정보를 가져오는 경우 사용
+    ```javascript
+    //원리를 반영한 코드
+    var timer;
+    document.querySelector(".body").addEventListener("scroll", function (e) {
+        if (!timer) {
+            timer = setTimeout(function () {
+                timer = null;
+                // 실행할 코드 내용
+            }, 200);
+        }
+    });
+    ```
 
 ## 자바스크립트 성능 최적화
 
