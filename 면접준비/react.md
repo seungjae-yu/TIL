@@ -23,45 +23,46 @@
 
 ### useEffect의 componentDidMount
 
-    ```jsx
-    //컴포넌트가 마운트 된 이후에 콘솔 로그 보여줌
-    import React, {useState, useEffect} from 'react';
-    export const HooksLifeCycle = () =>{
-        useEffect(()=>{
-        console.log('component did mount with useEffect!')
-        });
-        return(
-            <div>
-                <h1>Hello?</h1>
-            </div>
-        )
-    }
-    ```
+```jsx
+//컴포넌트가 마운트 된 이후에 콘솔 로그 보여줌
+import React, { useState, useEffect } from "react";
+export const HooksLifeCycle = () => {
+    useEffect(() => {
+        console.log("component did mount with useEffect!");
+    });
+    return (
+        <div>
+            <h1>Hello?</h1>
+        </div>
+    );
+};
+```
 
 ### useEffect의 componentDidUpdate
 
-    ```jsx
-    //버튼 클릭할때마다 state가 변경되며 리렌더링 > useEffect작동하며 componentDidUpdate 역할
-    import React, { useState, useEffect } from "react";
-    export const HooksLifeCycle = () => {
-        const [number, setNumber] = useState(0);
-        useEffect(() => {
-            console.log("component did mount with useEffect!");
-        });
-        return (
-            <div>
+```jsx
+//버튼 클릭할때마다 state가 변경되며
+//리렌더링 > useEffect작동하며 componentDidUpdate 역할
+import React, { useState, useEffect } from "react";
+export const HooksLifeCycle = () => {
+    const [number, setNumber] = useState(0);
+    useEffect(() => {
+        console.log("component did mount with useEffect!");
+    });
+    return (
+        <div>
             <h2>number is {number}</h2>
             <button
                 onClick={() => {
-                setNumber(number + 1);
+                    setNumber(number + 1);
                 }}
             >
                 Increment
             </button>
-            </div>
-        );
-    };
-    ```
+        </div>
+    );
+};
+```
 
 ### useEffect의 componentWillunmount
 

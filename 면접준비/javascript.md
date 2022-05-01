@@ -137,21 +137,21 @@
 -   함수 호이스팅은 함수를 사용하기 전에 반드시 함수를 선언해야한다는 규칙을 무시하므로 함수 표현식을 권장하며  
     디버깅의 편의성을 위해 함수 이름이 있는 기명 함수 표현식을 사용하는것을 권장한다고 한다.
 
-    ```
+    ```javascript
     // bad
     function foo() {
-    // ...
+        // ...
     }
 
     // bad
     const foo = function () {
-    // ...
+        // ...
     };
 
     // good
     // lexical name distinguished from the variable-referenced invocation(s)
     const short = function longUniqueMoreDescriptiveLexicalFoo() {
-    // ...
+        // ...
     };
     ```
 
