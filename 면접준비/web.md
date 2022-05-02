@@ -139,7 +139,7 @@
 
 ## CSRF (Cross Site Request Forgery)
 
--   [참고자료]('https://itstory.tk/entry/CSRF-%EA%B3%B5%EA%B2%A9%EC%9D%B4%EB%9E%80-%EA%B7%B8%EB%A6%AC%EA%B3%A0-CSRF-%EB%B0%A9%EC%96%B4-%EB%B0%A9%EB%B2%95')
+-   [참고자료](https://itstory.tk/entry/CSRF-%EA%B3%B5%EA%B2%A9%EC%9D%B4%EB%9E%80-%EA%B7%B8%EB%A6%AC%EA%B3%A0-CSRF-%EB%B0%A9%EC%96%B4-%EB%B0%A9%EB%B2%95)
 -   특정 웹사이트가 사용자의 브라우저를 신용하여 발생하는 공격
 -   사용자가 자신의 의지와 무관하게 공격자가 의도한 행위(수정, 삭제, 등록)을 웹사이트에 요청하게 만드는 공격
 -   사용자가 로그인한 상태에서 XSS 공격코드가 삽입된 페이지를 열면, 공격 대상이 되는 웹사이트는 위조된 공격이 믿을 수 있는 사용자로부터 발송된것으로 판단하여 노출
@@ -177,4 +177,4 @@
 
 ## display 속성
 
--   [참고자료]('https://aboooks.tistory.com/85')
+-   [참고자료](https://aboooks.tistory.com/85)

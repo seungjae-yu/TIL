@@ -17,7 +17,7 @@
 
 ## React Hook Life Cycle
 
--   [참고자료1]('https://krpeppermint100.medium.com/js-useeffect%EB%A5%BC-%ED%86%B5%ED%95%9C-react-hooks%EC%9D%98-lifecycle-%EA%B4%80%EB%A6%AC-3a65844bcaf8')
+-   [참고자료1](https://krpeppermint100.medium.com/js-useeffect%EB%A5%BC-%ED%86%B5%ED%95%9C-react-hooks%EC%9D%98-lifecycle-%EA%B4%80%EB%A6%AC-3a65844bcaf8)
 -   useEffect를 사용해 LifeCycle 관리 가능
 -   useEffect는 componentDidMount, componentDidUpdate, component
 
@@ -103,7 +103,7 @@ export const HooksLifeCycle = () => {
 
 ## Virtual DOM 개념 및 비교 알고리즘
 
--   [참고자료1]('https://velog.io/@gwak2837/React-Virtual-DOM-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0'), [참고자료2]('https://yeoulcoding.me/147')
+-   [참고자료1](https://velog.io/@gwak2837/React-Virtual-DOM-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0), [참고자료2](https://yeoulcoding.me/147)
 -   기존에는 화면을 다시 그릴때마다 jQuery나 document.getElementById, document.querySelector를 통해  
     DOM노드를 검색하고 수정하거나 특정 위치에 노드를 추가-삭제 --> 이렇게 DOM 노드에 CRUD 작업을 하는것은 비싸다.
 -   브라우저가 HTML Parser를 통해 HTML 태그들을 DOM tree -> CSS적용하여 Render Tree -> Reflow , Repaint를 거쳐  
@@ -121,7 +121,6 @@ export const HooksLifeCycle = () => {
 
 ### Reconciliation Algorithm
 
--   [참고자료]('https://www.huskyhoochu.com/virtual-dom/')
 -   상태가 변하거나 프로퍼티가 변해서 DOM을 업데이트 해야하는 경우, 변경된 부분만 감지해서 바뀐 부분만 업데이트
 -   Virtual DOM끼리의 비교를 의미하며, React는 이전상태와의 비교를 위해 항상 이전 상태의 Virtual DOM의 사본을 갖고있다.
 -   일반적인 트리구조의 비교는 O(n^3)이나, 휴리스틱 알고리즘을 통해 O(n)에 해결 -> 다 비교x, 필요한 부분만 비교한다.
@@ -268,7 +267,7 @@ export const HooksLifeCycle = () => {
 
 ### useLayoutEffect
 
--   [참고자료]('https://medium.com/@jnso5072/react-useeffect-%EC%99%80-uselayouteffect-%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C-e1a13adf1cd5')
+-   [참고자료](https://medium.com/@jnso5072/react-useeffect-%EC%99%80-uselayouteffect-%EC%9D%98-%EC%B0%A8%EC%9D%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C-e1a13adf1cd5)
 -   useLayoutEffect는 컴포넌트들이 render된 후 실행 > 이후에 paint 진행
 -   동기적으로 실행
 -   paint 되기전에 실행되기때문에 dom을 조작하는 코드가 있더라도 깜빡임x
@@ -324,13 +323,13 @@ export const HooksLifeCycle = () => {
 
 ### useMemo & useCallback
 
--   [참고자료1]('https://leehwarang.github.io/2020/05/02/useMemo&useCallback.html')
+-   [참고자료1](https://leehwarang.github.io/2020/05/02/useMemo&useCallback.html)
 -   함수가 실행될 때마다 내부에 선언되어 있던 표현식(변수, 또다른 함수 등)도 매번 다시 선언되어 사용된다.
 -   하위 컴포넌트에 최적화 설정을 해주지 않으면 부모에게서 받는 props가 변경되지 않았더라도 리렌더링 된다.
 
 #### useMemo
 
--   [참고자료1]('https://velog.io/@kysung95/%EC%A7%A4%EB%A7%89%EA%B8%80-useMemo')
+-   [참고자료1](https://velog.io/@kysung95/%EC%A7%A4%EB%A7%89%EA%B8%80-useMemo)
 -   하위 컴포넌트에서 a,b를 전달받아 <b>서로 다른</b> 함수로 각각의 값을 계산한다.
 
     ```jsx
@@ -445,7 +444,7 @@ export const HooksLifeCycle = () => {
 
 #### useCallback
 
--   [참고자료1]('https://leehwarang.github.io/2020/05/02/useMemo&useCallback.html')
+-   [참고자료1](https://leehwarang.github.io/2020/05/02/useMemo&useCallback.html)
 -   메모된 함수를 반환한다는것이 useMemo와 가장 큰 차이이다.
 -   컴포넌트가 렌더링 될 때마다 내부에 선언되어 있던 표현식(변수, 또다른 함수 등)도 매번 다시 선언되어 사용된다
 
@@ -493,7 +492,7 @@ export const HooksLifeCycle = () => {
 
 ### useRef
 
--   [참고자료1]('https://www.daleseo.com/react-hooks-use-ref/')
+-   [참고자료1](https://www.daleseo.com/react-hooks-use-ref/)
 -   1. 특정 DOM을 선택해야 할 때
 
     ```jsx
@@ -579,7 +578,7 @@ export const HooksLifeCycle = () => {
 
 ## React 에러 바운더리
 
--   [참고자료1]('https://nukw0n-dev.tistory.com/24')
+-   [참고자료1](https://nukw0n-dev.tistory.com/24)
 -   react에서 예외 발생시 예외를 발생한 컴포넌트만 언마운트 되는게 아니다.
 -   예외 발생시 모든 컴포넌트가 언마운트 된다.
 -   <b>이는 잘못된 정보를 사용자에게 보여주는것보다 아무것도 보여주지 않는게 낫기 때문이다.</b>
@@ -623,7 +622,7 @@ export const HooksLifeCycle = () => {
 
 ## redux / context api
 
--   [참고자료1]('https://devlog-h.tistory.com/26'), [참고자료2]('https://velog.io/@cada/React-Redux-vs-Context-API')
+-   [참고자료1](https://devlog-h.tistory.com/26), [참고자료2](https://velog.io/@cada/React-Redux-vs-Context-API)
 -
 
 ## redux saga
