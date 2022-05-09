@@ -479,7 +479,6 @@
 
 1.  생성자 함수 내부에서 this는 생성자 함수가 생성할 인스턴스와 바인딩
 2.  call, apply, bind 사용시 함수의 첫번째 인자로 전달하는 객체에 바인딩
-3.
 
 ## Iterable, Iterator + Generator
 
@@ -691,6 +690,65 @@
 -   async, await을 사용하면 Promise, then보다 코드가 간결해지며 에러 핸들링시 try-catch 사용
 -   async가 사용된 함수는 promise를 반환
 
+## setTimeout, setInterval 차이
+
+-   [참고자료](https://velog.io/@jakeseo_me/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%9D%BC%EB%A9%B4-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-33%EA%B0%80%EC%A7%80-%EA%B0%9C%EB%85%90-10-%EC%8A%A4%EC%BC%80%EC%A5%B4%EB%A7%81-setTimeout-%EA%B3%BC-setInterval-y6juukjsey)
+
+### setTimeout
+
+-   일정 시간 간격 이후에 함수가 한번 실행됨
+-   clearTimeout으로 취소
+
+    ```js
+    let timerId = setTimeout(func|code, [delay], [arg1], [arg2], ...);
+
+        let timerId = setTimeout(() => alert("never happens"), 1000);
+
+    alert(timerId); // timer identifier
+
+    clearTimeout(timerId);
+    alert(timerId); // same identifier (취소 이후에도 null이 되진 않습니다.)
+    ```
+
+### setInterval
+
+-   일정 시간 간격으로 함수가 주기적으로 실행됨
+-   호출하는걸 중지하고 싶다면 clearInterval으로 중지
+
+    ```javascript
+    // 2초마다 반복
+    let timerId = setInterval(() => alert("tick"), 2000);
+
+    // 5초 후에 정지
+    setTimeout(() => {
+        clearInterval(timerId);
+        alert("stop");
+    }, 5000);
+    ```
+
+### 재귀적인 setTimeout
+
+-   재귀적인 setTimeout은 setInterval이 보장하지 못하는 실행간 딜레이를 보장할 수 있음
+
+    ```js
+    let i = 1;
+    setInterval(function () {
+        func(i);
+    }, 100);
+    ```
+
+    ```js
+    let i = 1;
+    setTimeout(function run() {
+        func(i);
+        setTimeout(run, 100);
+    }, 100);
+    ```
+
 ## 자바스크립트 성능 최적화
 
 -
+
+```
+
+```

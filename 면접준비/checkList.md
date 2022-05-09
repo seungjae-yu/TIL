@@ -3,16 +3,19 @@
 ## JavaScript
 
 -   호이스팅이란?
--   클로저란? 원리 + 사용이유
--   this (call, apply, bind)
--   자바스크립트 이벤트 루프
--   마이크로태스크 큐 / 태스크 큐
--   Iterable, Iterator
--   Generator
--   require / import
--   자바스크립트 성능 최적화
--   var, let, const
--   디바운싱/쓰로틀링
+-   var/let/const 비교
+-   이벤트 루프란?
+-   함수 선언식/함수 표현식/화살표 함수
+-   렉시컬 스코프란?
+-   클로저란?
+-   this란?
+-   iterable/Iterator
+-   Generator란?
+-   module란?
+-   디바운싱, 쓰로틀링이란?
+-   promise와 callback 차이
+-   async/await이란 무엇인지, promise와 차이
+-   setTimeout, setInterval 차이
 
 ## TypeScript
 
