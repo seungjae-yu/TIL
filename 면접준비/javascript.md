@@ -2,7 +2,7 @@
 
 ## var, let, const + 호이스팅
 
--   [참고자료1]('https://www.howdy-mj.me/javascript/var-let-const/'), [참고자료2]('https://velog.io/@bathingape/JavaScript-var-let-const-%EC%B0%A8%EC%9D%B4%EC%A0%90'), [참고자료3]('https://medium.com/@su_bak/javascript-var-let-const%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90-9fab5c264c9c')
+-   [참고자료1](https://www.howdy-mj.me/javascript/var-let-const/), [참고자료2](https://velog.io/@bathingape/JavaScript-var-let-const-%EC%B0%A8%EC%9D%B4%EC%A0%90), [참고자료3](https://medium.com/@su_bak/javascript-var-let-const%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90-9fab5c264c9c)
 -   자바스크립트에서 변수선언은 <b>선언 -> 초기화 -> 할당</b> 단계를 통해 수행된다.
 -   var 키워드를 통한 변수 선언은 스코프 선두에서 선언과 초기화 단계가 동시에 진행.
 
@@ -58,7 +58,7 @@
 
 ## 이벤트 루프
 
--   [참고자료1]('https://velog.io/@thms200/Event-Loop-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84'), [참고자료2]('https://meetup.toast.com/posts/89'), [참고자료3]('https://medium.com/sjk5766/javascript-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%95%B5%EC%8B%AC-event-loop-%EC%A0%95%EB%A6%AC-422eb29231a8')
+-   [참고자료1](https://velog.io/@thms200/Event-Loop-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84), [참고자료2](https://meetup.toast.com/posts/89), [참고자료3](https://medium.com/sjk5766/javascript-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%95%B5%EC%8B%AC-event-loop-%EC%A0%95%EB%A6%AC-422eb29231a8)
 -   자바스크립트 엔진은 Memory Heap과 Call Stack으로 구성, 구글의 V8 Engine
 -   자바스크립트는 단일 쓰레드로 비동기 동작을 원래 지원하지 않는다.
 -   브라우저가 Web API, Event Table, Callback Queue, Event Loop를 지원한다.
@@ -90,7 +90,7 @@
 
 ## 함수 선언식, 함수 표현식, 화살표 함수
 
--   [참고자료1]('https://velog.io/@bigbrothershin/%EC%98%A4%EB%8A%98-%EA%B3%B5%EB%B6%80%ED%95%A0-%EA%B2%832020.1.30'), [참고자료2]('https://velog.io/@seeh_h/%ED%95%A8%EC%88%98-%EC%84%A0%EC%96%B8%EC%8B%9D-vs-%ED%95%A8%EC%88%98-%ED%91%9C%ED%98%84%EC%8B%9D'), [참고자료3]('https://github.com/imacoolgirlyo/javascript#functions--declarations')
+-   [참고자료1](https://velog.io/@bigbrothershin/%EC%98%A4%EB%8A%98-%EA%B3%B5%EB%B6%80%ED%95%A0-%EA%B2%832020.1.30), [참고자료2](https://velog.io/@seeh_h/%ED%95%A8%EC%88%98-%EC%84%A0%EC%96%B8%EC%8B%9D-vs-%ED%95%A8%EC%88%98-%ED%91%9C%ED%98%84%EC%8B%9D), [참고자료3](https://github.com/imacoolgirlyo/javascript#functions--declarations)
 
 ### 함수 선언식
 
@@ -195,7 +195,7 @@
 
 ## 클로저
 
--   [참고자료1]('https://velog.io/@proshy/JS%ED%81%B4%EB%A1%9C%EC%A0%B8closure%EC%99%80-%ED%81%B4%EB%A1%9C%EC%A0%B8%EC%9D%98-%EC%82%AC%EC%9A%A9-%EC%98%88%EC%A0%9C'), [참고자료2]('https://poiemaweb.com/js-closure')
+-   [참고자료1](https://velog.io/@proshy/JS%ED%81%B4%EB%A1%9C%EC%A0%B8closure%EC%99%80-%ED%81%B4%EB%A1%9C%EC%A0%B8%EC%9D%98-%EC%82%AC%EC%9A%A9-%EC%98%88%EC%A0%9C), [참고자료2](https://poiemaweb.com/js-closure)
 
     ```javascript
     function outerFunc() {
@@ -331,7 +331,7 @@
 
 ## this (call, apply, bind)
 
--   [참고자료1]('https://nykim.work/71')
+-   [참고자료1](https://nykim.work/71)
 -   자신이 속한 객체 or 자신이 생성할 인스턴스를 가리키는 참조변수.
 -   함수의 호출 방식에 따라 특정 객체를 바인딩
 -   기본적으로 브라우저에서는 window, node.js에서는 global을 가리킨다.
@@ -482,7 +482,7 @@
 
 ## Iterable, Iterator + Generator
 
--   [참고자료1]('https://bbaktaeho-95.tistory.com/79')
+-   [참고자료1](https://bbaktaeho-95.tistory.com/79)
 -   iterable : 반복 가능한 / iterator : 반복자
 
 ### iterable
@@ -541,7 +541,7 @@
 
 ## module require, import
 
--   [참고자료1]('https://github.com/baeharam/Must-Know-About-Frontend/blob/main/Notes/javascript/module.md')
+-   [참고자료1](https://github.com/baeharam/Must-Know-About-Frontend/blob/main/Notes/javascript/module.md)
 
 ### 모듈(module)이란 ?
 
@@ -613,7 +613,7 @@
 
 ## 디바운싱, 쓰로틀링
 
--   [침고자료1]('https://flamingotiger.github.io/javascript/throttle-debounce/'), [참고자료2]('https://velog.io/@yujuck/Javascript-%EB%94%94%EB%B0%94%EC%9A%B4%EC%8A%A4%EC%99%80-%EC%93%B0%EB%A1%9C%ED%8B%80%EB%A7%81'), [참고자료3]('https://thewavelet.tistory.com/65?category=752296')
+-   [침고자료1](https://flamingotiger.github.io/javascript/throttle-debounce/), [참고자료2](https://velog.io/@yujuck/Javascript-%EB%94%94%EB%B0%94%EC%9A%B4%EC%8A%A4%EC%99%80-%EC%93%B0%EB%A1%9C%ED%8B%80%EB%A7%81), [참고자료3](https://thewavelet.tistory.com/65?category=752296)
 
 ### 디바운싱
 
