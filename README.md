@@ -5,7 +5,6 @@
 -   Email : kimug2145@gmail.com
 -   Github : [https://github.com/seungjae-yu](https://github.com/seungjae-yu)
 -   LinkedIn : [https://www.linkedin.com/in/seungjae-yu/](https://www.linkedin.com/in/seungjae-yu/)
--   2019.09.09 ~ 2022.09.08 전문연구요원 복무중
 
 ## 보유 기술
 
@@ -42,10 +41,15 @@
 
 ## 경력
 
--   ### TmaxSoft / Middleware 본부 (2019.07 ~ 현재)
+-   ### TmaxSoft / Middleware 본부 (2019.07 ~ 2022.06)
+    -   2019.09.09 ~ 2022.09.08 전문연구요원 복무
     -   주요 업무 : AnyLink 신제품 웹 스튜디오 개발 담당
     -   Theia Framework를 이용한 SPA Web IDE 개발
     -   기술 스택 : TypeScript, React, React-redux, Inversify.js, Theia, Node.js, Express, Jest
+
+-   ### Kakao Style (2022.06 ~ 현재)
+    -   주요 업무 : 지그재그 앱 내 웹뷰 개발
+    -   기술 스택 : TypeScript, React, Jotai, GraphQL, ...
 
 ## 학력사항
 
@@ -54,7 +58,7 @@
 
 ## Project
 
--   ### AnyLink 21 Studio (2020 ~ 현재)
+-   ### AnyLink 21 Studio (2020 ~ 2022.06)
     Theia Framework를 이용한 AnyLink 스튜디오 Web IDE 개발
     -   #### 개발언어/프레임워크/라이브러리
         -   JavaScript, TypeScript
