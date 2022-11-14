@@ -48,7 +48,7 @@
     -   기술 스택 : TypeScript, React, React-redux, Inversify.js, Theia, Node.js, Express, Jest
 
 -   ### Kakao Style (2022.06 ~ 현재)
-    -   주요 업무 : 지그재그 앱 내 웹뷰 개발
+    -   주요 업무 : 지그재그 앱 내 웹뷰, 파트너센터 개발
     -   기술 스택 : TypeScript, React, Jotai, GraphQL, ...
 
 ## 학력사항
@@ -72,6 +72,8 @@
         -   TypeScript를 이용한 객체지향 프로그래밍
         -   REST API를 통한 배포 모듈과의 서비스 연동
         -   Inversify.js를 이용한 dependency injection 적용
+
+-   ### ZigZag (2022.06 ~ 현재)
 
 ## Side Project
 
